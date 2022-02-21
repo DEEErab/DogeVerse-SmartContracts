@@ -13,3 +13,13 @@ task("accounts", "Hello World", async (taskArgs, hre) => {
 export default {
   solidity: "0.8.4",
 };
+
+module.exports = {
+  networks: {
+    hardhat: {
+      accounts: {
+        count: 9000,
+      },
+    },
+  },
+};

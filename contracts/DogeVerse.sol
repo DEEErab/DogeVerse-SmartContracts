@@ -15,7 +15,9 @@ contract DogeVerse is ERC721Enumerable, Ownable {
     string public baseExtension = ".json";
     uint256 public cost = 0.069 ether;
     uint256 public maxSupply = 8888;
+    uint256 public paidMint = 8000;
     uint256 public freeMintLimit = 800;
+    uint256 public teamReserve = 88;
     uint256 public maxMintAmount = 15;
     uint256 public limitPerWallet = 1;
     string public notRevealedUri;
